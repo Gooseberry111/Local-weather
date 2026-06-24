@@ -1,8 +1,10 @@
 <template>
-  <div class="flex flex-col min-h-screen font-Roboto bg-weather-primary">
+  <div
+    class="flex flex-col min-h-screen font-Inter bg-gradient-to-br from-weather-primary via-weather-secondary to-weather-primary"
+  >
     <SiteNavigation />
     <RouterView v-slot="{ Component }">
-      <Transition name="page" node="out-in">
+      <Transition name="page" mode="out-in">
         <component :is="Component" />
       </Transition>
     </RouterView>

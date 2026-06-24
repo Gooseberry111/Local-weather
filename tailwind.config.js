@@ -4,12 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'weather-primary': '#00668A',
-        'weather-secondary': '#004E71',
+        'weather-primary': '#0F172A',
+        'weather-secondary': '#1E3A5F',
+        'weather-accent': '#38BDF8',
       },
     },
     fontFamily: {
-      Roboto: ['Roboto, sans-serif'],
+      Inter: ['Inter', 'sans-serif'],
     },
     container: {
       padding: '2rem',
